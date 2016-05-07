@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.bmob.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="ANDROID.PERMISSION.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name" >
+        <provider
+            android:name="com.niuniumei.intelligentalarmclock.provider.AlarmProvider"
+            android:authorities="com.niuniumei.intelligentalarmclock"
+            android:exported="false" />
+
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppBaseTheme" >
+            <meta-data
+                android:name="android.dock_home"
+                android:value="true" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DESK_DOCK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.SetAlarmPreference"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:label="@string/set_alarm"
+            android:parentActivityName="com.niuniumei.intelligentalarmclock.Activities.MainActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.SettingsPreference"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:label="@string/settings"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.AlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:taskAffinity=""
+            android:theme="@style/styleAlert" />
+
+        <receiver android:name="com.niuniumei.intelligentalarmclock.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="com.niuniumei.intelligentalarmclock.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/alarm_alert" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.HandleSetAlarm"
+            android:excludeFromRecents="true"
+            android:permission="com.android.alarm.permission.SET_ALARM"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.niuniumei.intelligentalarmclock.AlarmKlaxon"
+            android:description="@string/alarm_klaxon_service_desc" >
+            <intent-filter>
+                <action android:name="com.niuniumei.intelligentalarmclock.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.LoginActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.RegisterActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="net.youmi.android.AdBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <service
+            android:name="net.youmi.android.AdService"
+            android:exported="false" />
+
+        <receiver android:name="net.youmi.android.AdReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.StarActivity"
+            android:parentActivityName="com.niuniumei.intelligentalarmclock.Activities.MainActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.UpdateActivity"
+            android:theme="@style/AppBaseTheme" />
+        <activity
+            android:name="com.niuniumei.intelligentalarmclock.Activities.WeatherActivity"
+            android:theme="@style/AppBaseTheme" />
+    </application>
+
+</manifest>

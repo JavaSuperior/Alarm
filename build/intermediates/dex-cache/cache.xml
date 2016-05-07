@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_1d1455da9a0fe2fb52e0ef6a1e519289834f48e4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_ba54f02667212df5862a4a587db6c76f732c88b6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/libs/fastjson-1.2.2.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="b3cd06ff3f21c8cf487c241ed145154fbae6b4e2">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/2/fastjson-1.2.2_915686d34932f2f2a2bd70ddb85dedd29f8afd59/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_31b0fdedce2121533c6aec8a7c78a367a4501fe0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8f90f2b5b64963a439be3bcfd0a70a294ebf5bfb">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e4beecd9b7a788dd11155fd30f6afffa2d8abf8b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.4.0_a35871d3f37e23c14ce6971d471f3557680a0bd0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.15/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="65067ef43929b76e5425aa6752d73fa4d4a80ed7">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.droidsonroids.gif-android-gif-drawable-1.1.15_a455f1741de3c426a19f446fb5f8b1bf6b3ad8ac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/libs/YoumiSdk_v6.0.0_2016-02-26.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="de9f2e96c15c188863b3da3abda0de2655502fc8">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/2/YoumiSdk_v6.0.0_2016-02-26_6456501a1e964bd0c2bffbd52902a6df7cdf4f8a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/.gradle/caches/modules-2/files-2.1/cn.bmob.android/bmob-sdk/3.4.5/44e559d18fd5a4826b0a4c0354308213e4f658a2/bmob-sdk-3.4.5.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="44e559d18fd5a4826b0a4c0354308213e4f658a2">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/bmob-sdk-3.4.5_1cb05fc807404410b6f66bf40870c9caa100406a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_aa3d1599a5f194f1acf1bdb576cf90722fc40aaf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_2cbda8262a3cbb175a3b5ec9f8baa88890fffda1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_ab06e28ac669d58358bb2f6c70048c7dfdfb6516/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_02fa3f0af16ac770f229356aa218771e7ae06e2e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="3d805a05338df92cc00063931084027132c38387">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_26f353744f8c91e76edbd0639371dcfa0e62ed26/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_4bc6a7a7eaed84bef66278e1bb594a1f368f00a2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.melnykov-floatingactionbutton-1.3.0_3363f8b2c6e64de229a056c3b4aa9eab1976ac94/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/libs/Msc.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="57336a9ca6f4f7f3612c82d43f80aa795147d345">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/2/Msc_c44fd3e9e3c9c7feee07cf9412b0856c78f851f2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_e743c3f2c044e4fcae6c874f5b9863b4da90e4e2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.4.0_b16c984c448a12a2ba564d4f59840d7062581b49/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.github.glomadrian/DashedCircularProgress/1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="54449be9e36d56b21af0be859a8a84d2788763ec">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.glomadrian-DashedCircularProgress-1.0_636807e1fbfc09c9130ba58210baab7f55092781/classes.dex" />
+    </item>
+    <item
+        jar="/Users/niuniumei/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_8794d486cdc2dd4d26e9fd273737197770a62db9/classes.dex" />
+    </item>
+
+</items>

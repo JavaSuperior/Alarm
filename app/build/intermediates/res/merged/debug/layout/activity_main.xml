@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.MainActivity">
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appleGreen"
+    android:minHeight="10dp">
+    <ImageView
+        android:id="@+id/add_alarm"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/sign_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</android.support.v7.widget.Toolbar>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- **** Place Your Content Here **** -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+        <View android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_shadow"/>
+
+    </FrameLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/grey"/>-->
+    <!--<RadioGroup-->
+        <!--android:background="@color/gray"-->
+        <!--android:id="@+id/radioGroup"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="10dp" >-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/btn_list"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:background="@null"-->
+            <!--android:drawableTop="@drawable/background_list"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="列表"-->
+            <!--android:textColor="@color/appleGreen" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/btn_calendar"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:background="@null"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:drawableTop="@drawable/background_calendar"-->
+            <!--android:text="日历"-->
+            <!--android:textColor="@color/appleGreen" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/btn_discovery"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:button="@null"-->
+            <!--android:background="@null"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:drawableTop="@drawable/background_discovery"-->
+            <!--android:text="发现"-->
+            <!--android:textColor="@color/appleGreen" />-->
+
+    <!--</RadioGroup>-->
+
+</LinearLayout>

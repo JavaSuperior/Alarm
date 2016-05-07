@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/niuniumei/Alarm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/niuniumei/Alarm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

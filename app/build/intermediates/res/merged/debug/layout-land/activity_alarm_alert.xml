@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifView"
+            android:src="@drawable/gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/alertTitle"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="5dip"
+            android:singleLine="true" />
+
+
+        <com.niuniumei.intelligentalarmclock.DigitalClock
+            style="@style/clock"
+            android:baselineAligned="true"
+            android:gravity="center_horizontal"
+            android:paddingBottom="30dip"
+            android:paddingTop="30dip">
+
+            <TextView
+                android:id="@+id/tv_time_display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/tv_am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textStyle="bold" />
+
+        </com.niuniumei.intelligentalarmclock.DigitalClock>
+
+        <LinearLayout
+            style="@android:style/ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_snooze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/alarm_alert_snooze_text" />
+
+            <!-- blank stretchable view -->
+            <View
+                android:layout_width="2dip"
+                android:layout_height="2dip"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/alarm_alert_dismiss_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

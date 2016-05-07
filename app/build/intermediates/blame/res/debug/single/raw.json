@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/raw/fallbackring.ogg",
+        "source": "/Users/niuniumei/Alarm/app/src/main/res/raw/fallbackring.ogg"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/raw/in_call_alarm.ogg",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/src/main/res/raw/in_call_alarm.ogg"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/raw/fallbackring.ogg",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/src/main/res/raw/fallbackring.ogg"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/raw/fallbackring.ogg",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/src/main/res/raw/fallbackring.ogg"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/raw/in_call_alarm.ogg",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/src/main/res/raw/in_call_alarm.ogg"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/raw/in_call_alarm.ogg",
+        "source": "/Users/niuniumei/Alarm/app/src/main/res/raw/in_call_alarm.ogg"
+    }
+]

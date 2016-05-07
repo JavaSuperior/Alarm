@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/layout-land/activity_alarm_alert.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/src/main/res/layout-land/activity_alarm_alert.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/layout-land/activity_alarm_alert.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/src/main/res/layout-land/activity_alarm_alert.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/layout-land/activity_alarm_alert.xml",
+        "source": "/Users/niuniumei/Alarm/app/src/main/res/layout-land/activity_alarm_alert.xml"
+    }
+]

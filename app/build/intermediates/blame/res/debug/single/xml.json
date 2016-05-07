@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/xml/alarm_prefs.xml",
+        "source": "/Users/niuniumei/Alarm/app/src/main/res/xml/alarm_prefs.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/src/main/res/xml/settings.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/Users/niuniumei/Alarm/app/src/main/res/xml/settings.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/xml/settings.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/src/main/res/xml/settings.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/xml/alarm_prefs.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/src/main/res/xml/alarm_prefs.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/xml/alarm_prefs.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/src/main/res/xml/alarm_prefs.xml"
+    }
+]

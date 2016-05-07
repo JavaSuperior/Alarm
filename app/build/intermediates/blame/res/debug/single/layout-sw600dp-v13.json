@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/niuniumei/Project_Android_Studio/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/niuniumei/git_repository/intelligentAlarmClock/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/niuniumei/Alarm/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/niuniumei/Alarm/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]
